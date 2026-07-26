@@ -36,6 +36,8 @@ Open http://127.0.0.1:8080
 
 - Live email OTP needs Supabase Magic Link template with `{{ .Token }}` and (for any Gmail) custom SMTP — see `supabase/AUTH_FIX.md`.
 - For a no-cost pitch login, set `usePitchDemoAuth = true` in `lib/config/supabase_config.dart` and use access code `246810`.
+- Google login: Create a Google Cloud OAuth client, add Client ID/Secret in Supabase, then users can sign in with Google.
+- Email OTP: Verify a domain in your email provider (DNS), configure SMTP in Supabase, then send login codes.
 
 ## Secrets
 
