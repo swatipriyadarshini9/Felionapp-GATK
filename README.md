@@ -8,6 +8,7 @@ Clinical genomics demo: Flutter client + FastAPI backend + Supabase auth/RLS sca
 - `backend` — FastAPI VCF/BAM analysis + Gemini interpretation
 - `supabase` — SQL migration, email template, setup notes
 
+
 ## Quick start (demo)
 
 ### Backend
@@ -38,6 +39,7 @@ Open http://127.0.0.1:8080
 - For a no-cost pitch login, set `usePitchDemoAuth = true` in `lib/config/supabase_config.dart` and use access code `246810`.
 - Google login: Create a Google Cloud OAuth client, add Client ID/Secret in Supabase, then users can sign in with Google.
 - Email OTP: Verify a domain in your email provider (DNS), configure SMTP in Supabase, then send login codes.
+- To test the app on various Android devices and configurations use Android Studio.
 
 ## Secrets
 
