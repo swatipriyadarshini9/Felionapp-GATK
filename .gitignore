@@ -1,0 +1,51 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.iml
+
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+backend/.venv/
+backend/venv/
+
+# Flutter / Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/coverage/
+*.iml
+
+# Backend local / large data
+backend/data/
+backend/reference/
+backend/*.vcf
+**/*.bam
+**/*.bai
+**/*.sam
+
+# Logs / temp
+*.log
+tmp/
+temp/
+.cache/
+
+# Supabase local (if used later)
+supabase/.branches/
+supabase/.temp/
