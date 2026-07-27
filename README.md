@@ -42,6 +42,7 @@ Open http://127.0.0.1:8080
 - To test the app on various Android devices and configurations use Android Studio.
 
 ## Demo
+https://github.com/user-attachments/assets/ab40380f-61d2-4f0f-b7ca-47f747601782
 
 ## Secrets
 
