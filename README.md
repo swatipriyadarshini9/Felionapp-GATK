@@ -41,6 +41,8 @@ Open http://127.0.0.1:8080
 - Email OTP: Verify a domain in your email provider (DNS), configure SMTP in Supabase, then send login codes.
 - To test the app on various Android devices and configurations use Android Studio.
 
+## Demo
+
 ## Secrets
 
 Do **not** commit:
